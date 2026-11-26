@@ -1,0 +1,20 @@
+[project]
+name = "product-catalog"
+version = "0.1.0"
+description = "Django take-home: products, categories and tags with search and filtering."
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "config.settings"
+python_files = ["test_*.py"]
+addopts = "-ra --strict-markers"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+extend-exclude = ["*/migrations/*"]
+
+[tool.ruff.lint]
+# E/F: pycodestyle + pyflakes, I: import sorting, B: bugbear, UP: pyupgrade,
+# DJ: Django-specific checks (e.g. model __str__, null=True on CharField).
+select = ["E", "F", "I", "B", "UP", "DJ"]

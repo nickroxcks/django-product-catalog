@@ -1,0 +1,15 @@
+.git
+.venv
+venv
+__pycache__
+*.pyc
+.pytest_cache
+.ruff_cache
+.idea
+.vscode
+db.sqlite3
+.env
+AboutTheJob.txt
+claude.md
+CLAUDE.md
+Take-Home Assignment.pdf

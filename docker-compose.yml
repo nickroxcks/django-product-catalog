@@ -1,0 +1,32 @@
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: catalog
+      POSTGRES_USER: catalog
+      POSTGRES_PASSWORD: catalog # local-only credentials
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      # Wait for Postgres to accept connections before starting the web container,
+      # otherwise `migrate` can race the database startup.
+      test: ["CMD-SHELL", "pg_isready -U catalog -d catalog"]
+      interval: 2s
+      timeout: 3s
+      retries: 15
+
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      SECRET_KEY: django-insecure-docker-dev-only
+      DEBUG: "True"
+      ALLOWED_HOSTS: localhost,127.0.0.1,0.0.0.0
+      DATABASE_URL: postgres://catalog:catalog@db:5432/catalog
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  pgdata:

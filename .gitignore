@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Django
+db.sqlite3
+staticfiles/
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# Private interview materials (not part of the submission)
+AboutTheJob.txt
+claude.md
+CLAUDE.md
+Take-Home Assignment.pdf

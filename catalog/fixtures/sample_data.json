@@ -1,0 +1,598 @@
+[
+{
+  "model": "catalog.category",
+  "pk": 11,
+  "fields": {
+    "name": "Wire & Cable",
+    "description": "Building wire, feeder and service entrance cable for residential and commercial electrical work."
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 12,
+  "fields": {
+    "name": "Breakers, Panels & Devices",
+    "description": "Circuit breakers, load centers, switches and receptacles."
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 13,
+  "fields": {
+    "name": "Pipe & Fittings",
+    "description": "Copper, PEX and PVC pipe plus the fittings that join them."
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 14,
+  "fields": {
+    "name": "Plumbing Valves & Fixtures",
+    "description": "Shutoff valves, water heaters, hose bibbs and leak protection."
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 15,
+  "fields": {
+    "name": "HVAC Equipment",
+    "description": "Heat pumps, furnaces, mini-splits and rooftop units."
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 16,
+  "fields": {
+    "name": "HVAC Ductwork & Controls",
+    "description": "Thermostats, duct, refrigerant line sets and air filters."
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 14,
+  "fields": {
+    "name": "Copper"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 15,
+  "fields": {
+    "name": "Brass"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 16,
+  "fields": {
+    "name": "PVC"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 17,
+  "fields": {
+    "name": "Galvanized"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 18,
+  "fields": {
+    "name": "Residential"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 19,
+  "fields": {
+    "name": "Commercial"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 20,
+  "fields": {
+    "name": "Outdoor Rated"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 21,
+  "fields": {
+    "name": "Energy Efficient"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 22,
+  "fields": {
+    "name": "Smart / Wi-Fi"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 23,
+  "fields": {
+    "name": "Lead-Free"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 24,
+  "fields": {
+    "name": "UL Listed"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 25,
+  "fields": {
+    "name": "240V"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 2,
+  "fields": {
+    "name": "14/2 NM-B Cable, 250 ft",
+    "sku": "EL-WIR-1402-250",
+    "description": "Non-metallic sheathed copper building wire with ground, rated 600V. Standard choice for 15A residential branch circuits.",
+    "price": "129.98",
+    "category": 11,
+    "created_at": "2026-11-28T04:15:11.519Z",
+    "updated_at": "2026-11-28T04:15:11.520Z",
+    "tags": [
+      14,
+      18,
+      24
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 3,
+  "fields": {
+    "name": "12 AWG THHN Stranded Wire, 500 ft",
+    "sku": "EL-WIR-12THHN-500",
+    "description": "Stranded copper conductor with nylon jacket for pulling through conduit in commercial and industrial installations.",
+    "price": "164.50",
+    "category": 11,
+    "created_at": "2026-11-28T04:15:11.521Z",
+    "updated_at": "2026-11-28T04:15:11.521Z",
+    "tags": [
+      19,
+      14,
+      24
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 4,
+  "fields": {
+    "name": "10/3 UF-B Underground Feeder Cable, 100 ft",
+    "sku": "EL-WIR-1003UF-100",
+    "description": "Direct-burial copper cable with a sunlight-resistant jacket for outdoor circuits, well pumps and detached garages.",
+    "price": "289.00",
+    "category": 11,
+    "created_at": "2026-11-28T04:15:11.521Z",
+    "updated_at": "2026-11-28T04:15:11.521Z",
+    "tags": [
+      25,
+      14,
+      20,
+      18
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 5,
+  "fields": {
+    "name": "6/3 SER Aluminum Service Entrance Cable, 50 ft",
+    "sku": "EL-WIR-06SER-050",
+    "description": "Aluminum service entrance cable for 240V feeders to subpanels, electric ranges and dryers.",
+    "price": "214.75",
+    "category": 11,
+    "created_at": "2026-11-28T04:15:11.522Z",
+    "updated_at": "2026-11-28T04:15:11.522Z",
+    "tags": [
+      25,
+      18,
+      24
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 6,
+  "fields": {
+    "name": "20A Single-Pole Circuit Breaker",
+    "sku": "EL-BRK-20SP",
+    "description": "Plug-on thermal-magnetic breaker for 120V branch circuits in residential load centers.",
+    "price": "12.48",
+    "category": 12,
+    "created_at": "2026-11-28T04:15:11.523Z",
+    "updated_at": "2026-11-28T04:15:11.523Z",
+    "tags": [
+      18,
+      24
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 7,
+  "fields": {
+    "name": "30A Double-Pole GFCI Breaker",
+    "sku": "EL-BRK-30DP-GFCI",
+    "description": "240V ground-fault breaker for hot tubs, outdoor equipment and heat pump circuits.",
+    "price": "138.99",
+    "category": 12,
+    "created_at": "2026-11-28T04:15:11.523Z",
+    "updated_at": "2026-11-28T04:15:11.523Z",
+    "tags": [
+      25,
+      20,
+      24
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 8,
+  "fields": {
+    "name": "200A Main Breaker Load Center, 40 Space",
+    "sku": "EL-PNL-200A-40",
+    "description": "Indoor electrical panel with copper bus bars, sized for whole-home service upgrades.",
+    "price": "349.00",
+    "category": 12,
+    "created_at": "2026-11-28T04:15:11.524Z",
+    "updated_at": "2026-11-28T04:15:11.524Z",
+    "tags": [
+      25,
+      14,
+      18,
+      24
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 9,
+  "fields": {
+    "name": "Smart Wi-Fi Dimmer Switch",
+    "sku": "EL-DEV-DIM-WIFI",
+    "description": "In-wall dimmer with app and voice control. Works with LED and incandescent lighting; requires a neutral wire.",
+    "price": "54.99",
+    "category": 12,
+    "created_at": "2026-11-28T04:15:11.524Z",
+    "updated_at": "2026-11-28T04:15:11.524Z",
+    "tags": [
+      21,
+      18,
+      22
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 10,
+  "fields": {
+    "name": "20A Weather-Resistant GFCI Receptacle",
+    "sku": "EL-DEV-GFCI-20WR",
+    "description": "Tamper-resistant duplex outlet with ground-fault protection for patios, rooftops and wet locations.",
+    "price": "28.97",
+    "category": 12,
+    "created_at": "2026-11-28T04:15:11.525Z",
+    "updated_at": "2026-11-28T04:15:11.525Z",
+    "tags": [
+      19,
+      20,
+      24
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 11,
+  "fields": {
+    "name": "3/4 in. Type L Copper Pipe, 10 ft",
+    "sku": "PL-PIP-CU-L075-10",
+    "description": "Hard-drawn copper tube for potable water supply lines and hydronic heating loops.",
+    "price": "68.40",
+    "category": 13,
+    "created_at": "2026-11-28T04:15:11.526Z",
+    "updated_at": "2026-11-28T04:15:11.526Z",
+    "tags": [
+      19,
+      14,
+      23
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 12,
+  "fields": {
+    "name": "1/2 in. PEX-A Tubing, 100 ft Coil",
+    "sku": "PL-PIP-PEXA-050-100",
+    "description": "Flexible cross-linked polyethylene tubing for hot and cold water distribution using expansion fittings.",
+    "price": "79.95",
+    "category": 13,
+    "created_at": "2026-11-28T04:15:11.526Z",
+    "updated_at": "2026-11-28T04:15:11.526Z",
+    "tags": [
+      23,
+      18
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 13,
+  "fields": {
+    "name": "4 in. PVC DWV Pipe, Schedule 40, 10 ft",
+    "sku": "PL-PIP-PVC-400-10",
+    "description": "Solvent-weld PVC pipe for drain, waste and vent lines in homes and light commercial buildings.",
+    "price": "42.25",
+    "category": 13,
+    "created_at": "2026-11-28T04:15:11.527Z",
+    "updated_at": "2026-11-28T04:15:11.527Z",
+    "tags": [
+      19,
+      16,
+      18
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 14,
+  "fields": {
+    "name": "3/4 in. Brass Sweat Coupling, 10-Pack",
+    "sku": "PL-FIT-BR-CPL075-10",
+    "description": "Lead-free brass fittings for joining copper pipe with solder in potable water systems.",
+    "price": "24.90",
+    "category": 13,
+    "created_at": "2026-11-28T04:15:11.527Z",
+    "updated_at": "2026-11-28T04:15:11.527Z",
+    "tags": [
+      15,
+      14,
+      23
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 15,
+  "fields": {
+    "name": "3/4 in. Brass Full-Port Ball Valve",
+    "sku": "PL-VLV-BALL-075",
+    "description": "Quarter-turn shutoff valve with sweat connections, lead-free for potable water service.",
+    "price": "21.49",
+    "category": 14,
+    "created_at": "2026-11-28T04:15:11.528Z",
+    "updated_at": "2026-11-28T04:15:11.528Z",
+    "tags": [
+      15,
+      23,
+      18
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 16,
+  "fields": {
+    "name": "50 Gal. Electric Tank Water Heater",
+    "sku": "PL-FIX-WH-E50",
+    "description": "240V water heater with dual 4500W elements and foam insulation to reduce standby heat loss.",
+    "price": "899.00",
+    "category": 14,
+    "created_at": "2026-11-28T04:15:11.528Z",
+    "updated_at": "2026-11-28T04:15:11.528Z",
+    "tags": [
+      25,
+      21,
+      18
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 17,
+  "fields": {
+    "name": "Frost-Free Outdoor Sillcock, 10 in.",
+    "sku": "PL-FIX-SILL-10",
+    "description": "Anti-siphon brass hose bibb that keeps the shutoff inside the heated wall to prevent freezing.",
+    "price": "36.75",
+    "category": 14,
+    "created_at": "2026-11-28T04:15:11.529Z",
+    "updated_at": "2026-11-28T04:15:11.529Z",
+    "tags": [
+      15,
+      20,
+      18
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 18,
+  "fields": {
+    "name": "Wi-Fi Water Leak Detector with Auto Shutoff Valve",
+    "sku": "PL-VLV-LEAK-WIFI",
+    "description": "Smart valve that closes the main water line and sends a phone alert when a leak is detected.",
+    "price": "449.99",
+    "category": 14,
+    "created_at": "2026-11-28T04:15:11.530Z",
+    "updated_at": "2026-11-28T04:15:11.530Z",
+    "tags": [
+      18,
+      22
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 19,
+  "fields": {
+    "name": "3-Ton 16 SEER2 Heat Pump Condenser",
+    "sku": "HV-EQP-HP-3T-16S",
+    "description": "Outdoor split-system unit for heating and cooling, 240V, using low-GWP R-454B refrigerant.",
+    "price": "4299.00",
+    "category": 15,
+    "created_at": "2026-11-28T04:15:11.530Z",
+    "updated_at": "2026-11-28T04:15:11.530Z",
+    "tags": [
+      25,
+      21,
+      20,
+      18
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 20,
+  "fields": {
+    "name": "80,000 BTU 96% AFUE Gas Furnace",
+    "sku": "HV-EQP-FUR-80K-96",
+    "description": "High-efficiency condensing furnace with variable-speed blower, vented with PVC pipe.",
+    "price": "2849.00",
+    "category": 15,
+    "created_at": "2026-11-28T04:15:11.531Z",
+    "updated_at": "2026-11-28T04:15:11.531Z",
+    "tags": [
+      21,
+      16,
+      18
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 21,
+  "fields": {
+    "name": "12,000 BTU Ductless Mini-Split System",
+    "sku": "HV-EQP-MSPL-12K",
+    "description": "Wall-mount inverter heat pump for single rooms or additions, with Wi-Fi app control.",
+    "price": "1599.00",
+    "category": 15,
+    "created_at": "2026-11-28T04:15:11.531Z",
+    "updated_at": "2026-11-28T04:15:11.531Z",
+    "tags": [
+      21,
+      18,
+      22
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 22,
+  "fields": {
+    "name": "5-Ton Packaged Rooftop Unit",
+    "sku": "HV-EQP-RTU-5T",
+    "description": "Gas/electric rooftop unit for light commercial buildings such as retail units and offices.",
+    "price": "8950.00",
+    "category": 15,
+    "created_at": "2026-11-28T04:15:11.532Z",
+    "updated_at": "2026-11-28T04:15:11.532Z",
+    "tags": [
+      19,
+      20
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 23,
+  "fields": {
+    "name": "Smart Programmable Thermostat",
+    "sku": "HV-CTL-TSTAT-WIFI",
+    "description": "Wi-Fi thermostat with learning schedules and remote room sensors to cut heating and cooling energy use.",
+    "price": "249.99",
+    "category": 16,
+    "created_at": "2026-11-28T04:15:11.532Z",
+    "updated_at": "2026-11-28T04:15:11.532Z",
+    "tags": [
+      21,
+      18,
+      22
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 24,
+  "fields": {
+    "name": "6 in. x 25 ft Insulated Flexible Duct",
+    "sku": "HV-DUC-FLEX-06-25",
+    "description": "R-8 insulated flex duct for supply air runs through attics and crawlspaces.",
+    "price": "58.49",
+    "category": 16,
+    "created_at": "2026-11-28T04:15:11.533Z",
+    "updated_at": "2026-11-28T04:15:11.533Z",
+    "tags": [
+      21,
+      18
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 25,
+  "fields": {
+    "name": "8 in. Galvanized Round Duct Pipe, 5 ft",
+    "sku": "HV-DUC-GALV-08-05",
+    "description": "26-gauge galvanized steel duct for main trunk and branch runs.",
+    "price": "18.95",
+    "category": 16,
+    "created_at": "2026-11-28T04:15:11.533Z",
+    "updated_at": "2026-11-28T04:15:11.533Z",
+    "tags": [
+      19,
+      17,
+      18
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 26,
+  "fields": {
+    "name": "3/8 x 3/4 in. Copper Line Set, 25 ft",
+    "sku": "HV-REF-LINE-3834-25",
+    "description": "Pre-insulated copper refrigerant line set for mini-split and heat pump installs.",
+    "price": "189.00",
+    "category": 16,
+    "created_at": "2026-11-28T04:15:11.534Z",
+    "updated_at": "2026-11-28T04:15:11.534Z",
+    "tags": [
+      14,
+      18
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 27,
+  "fields": {
+    "name": "MERV 13 Pleated Air Filter 16x25x1, 6-Pack",
+    "sku": "HV-FLT-M13-16251-6",
+    "description": "High-efficiency furnace filter that captures fine dust, pollen and smoke particles.",
+    "price": "64.99",
+    "category": 16,
+    "created_at": "2026-11-28T04:15:11.534Z",
+    "updated_at": "2026-11-28T04:15:11.534Z",
+    "tags": [
+      19,
+      18
+    ]
+  }
+}
+]
